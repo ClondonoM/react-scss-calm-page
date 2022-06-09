@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "react-scss-calm-page"
+  },
+  "api": {
+    "projectId": "t9geo9x4",
+    "dataset": "react-scss-calm-page"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
