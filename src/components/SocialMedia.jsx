@@ -1,10 +1,10 @@
-import { Bslinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 
 const SocialMedia = () => {
   return (
     <div className='app__social'>
       <div>
-        <Bslinkedin />
+        <BsLinkedin />
       </div>
       <div>
         <BsGithub />
