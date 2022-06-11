@@ -1,31 +1,10 @@
 // import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
-import { images } from '../../constants';
+import { abouts } from './aboutData';
 
 // import { urlFor, client } from '../../client';
 import './About.scss';
-
-const abouts = [
-  {
-    title: 'Web Development',
-    description:
-      'I am a web developer with a passion for building web applications.',
-    imgUrl: images.about01,
-  },
-  {
-    title: 'Web Design',
-    description:
-      'I am a web developer with a passion for building web applications.',
-    imgUrl: images.about02,
-  },
-  {
-    title: 'UI/UX',
-    description:
-      'I am a web developer with a passion for building web applications.',
-    imgUrl: images.about03,
-  },
-];
 
 const About = () => {
   // const [abouts, setAbouts] = useState([]);
@@ -45,7 +24,7 @@ const About = () => {
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             trasition={{ duration: 0.5, type: 'tween' }}
             className='app__profile-item'
             key={about.title + index}
