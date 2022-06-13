@@ -3,7 +3,10 @@ import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { abouts } from './aboutData';
 
-// import { urlFor, client } from '../../client';
+// import { client } from '../../client';
+// import BlockContent from '@sanity/block-content-to-react';
+// import imageUrlBuilder from '@sanity/image-url';
+// import sanityClient from '@sanity/client';
 import './About.scss';
 
 const About = () => {
@@ -12,6 +15,17 @@ const About = () => {
   //   const query = '*[_type == "abouts"]';
   //   client.fetch(query).then((data) => setAbouts(data));
   // }, []);
+
+  // const [abouts, setAbouts] = useState([]);
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+  //   client.fetch(query).then((data) => setAbouts(data));
+  // }, []);
+
+  // const builder = imageUrlBuilder(sanityClient);
+  // function urlFor(source) {
+  //   return builder.image(source);
+  // }
 
   return (
     <>
