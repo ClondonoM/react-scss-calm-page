@@ -46,6 +46,10 @@
   justify-content: flex-end;
   align-items: flex-end;
 
+  // @media screen and (max-width: 450px) {
+  //   width: 80vw;
+  // }
+
   p {
     text-transform: uppercase;
     color: var(--black-color);
@@ -58,6 +62,7 @@
   text-align: center;
   color: var(--black-color);
   text-transform: capitalize;
+  margin-top: 90px;
 
   span {
     color: var(--secondary-color);
