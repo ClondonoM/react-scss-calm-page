@@ -1,5 +1,5 @@
 import { images } from '../../constants';
-export const filterWork = [
+export const worksData = [
   {
     title: 'Modern UX/UI Website 1',
     description: 'A modern UX/UI Portfolio Website',
