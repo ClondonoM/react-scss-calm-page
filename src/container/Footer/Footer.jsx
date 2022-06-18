@@ -41,6 +41,10 @@ const Footer = () => {
           <img src={images.email} alt='emailme' />
         </a>
       </div>
+      <div className='copyright'>
+        <p className='p-text'>@2022 Carlos Londono</p>
+        <p className='p-text'>All rights reserved</p>
+      </div>
 
       {/* {!isFormSubmitted ? (
         <div className='app__footer-form app__flex'>

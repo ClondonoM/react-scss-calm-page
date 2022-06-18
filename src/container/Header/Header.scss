@@ -1,6 +1,10 @@
 #home {
   position: relative;
-  background: url('../../assets/bg2.png');
+  background: linear-gradient(
+      rgba(200, 200, 200, 0.5),
+      rgba(200, 200, 200, 0.5)
+    ),
+    url('../../assets/bg2.avif');
 
   background-size: cover;
   background-repeat: repeat;

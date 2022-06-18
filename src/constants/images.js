@@ -4,7 +4,6 @@ import uxui from '../assets/uxui.png';
 import running from '../assets/running.png';
 import webd from '../assets/webd.png';
 import workt from '../assets/workt.png';
-import bg1 from '../assets/bg1.png';
 
 import css from '../assets/css.png';
 import git from '../assets/git.png';
@@ -35,7 +34,6 @@ export default {
   running,
   webd,
   workt,
-  bg1,
 
   css,
 
