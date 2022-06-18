@@ -8,10 +8,7 @@ export const skillsData = [
     name: 'JavaScript',
     icon: images.javascript,
   },
-  {
-    name: 'Sass',
-    icon: images.sass,
-  },
+
   {
     name: 'React',
     icon: images.react,
@@ -19,6 +16,18 @@ export const skillsData = [
   {
     name: 'Redux',
     icon: images.redux,
+  },
+  {
+    name: 'Sass',
+    icon: images.sass,
+  },
+  {
+    name: 'Tailwind',
+    icon: images.tailwind,
+  },
+  {
+    name: 'Framer Motion',
+    icon: images.framer,
   },
   {
     name: 'Git',

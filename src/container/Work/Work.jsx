@@ -83,7 +83,7 @@ const Work = () => {
                       transition={{ duration: 0.25 }}
                       className='app__flex'
                     >
-                      <AiFillGithub />
+                      <AiFillGithub onClick={'https://github.com/ClondonoM'} />
                     </motion.div>
                   </a>
                 </motion.div>

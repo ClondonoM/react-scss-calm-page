@@ -4,13 +4,22 @@ const SocialMedia = () => {
   return (
     <div className='app__social'>
       <div>
-        <BsLinkedin />
+        <a
+          href='https://www.linkedin.com/in/carlos-alberto-londo%C3%B1o-martinez-b12a10234/'
+          target='_blank'
+        >
+          <BsLinkedin />
+        </a>
       </div>
       <div>
-        <BsGithub />
+        <a href='https://github.com/ClondonoM' target='_blank'>
+          <BsGithub />
+        </a>
       </div>
       <div>
-        <BsTwitter />
+        <a href='https://twitter.com/CLondonoDev' target='_blank'>
+          <BsTwitter />
+        </a>
       </div>
     </div>
   );
