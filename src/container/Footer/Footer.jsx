@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { NavigationDots } from '../../components';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
