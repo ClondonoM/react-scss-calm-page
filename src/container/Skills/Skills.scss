@@ -1,3 +1,7 @@
+#skills {
+  background-color: var(--white-color);
+}
+
 .app__skills {
   flex: 1;
   width: 100%;
@@ -27,6 +31,7 @@
   flex-direction: column;
   text-align: center;
   margin: 1rem;
+
   transition: all 0.3 ease-in-out;
   -webkit-transition: all 0.3 ease-in-out;
   -moz-transition: all 0.3 ease-in-out;
@@ -36,7 +41,7 @@
   div {
     width: 90px;
     height: 90px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-.app__profiles {
+.app__work-profiles {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -70,7 +70,7 @@
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
-    background-color: #fff;
+    background-color: var(--white-color);
     color: #000;
     cursor: pointer;
     transition: all 0.3s ease;
