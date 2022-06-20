@@ -5,10 +5,17 @@ export const skillsData = [
     icon: images.html,
   },
   {
+    name: 'CSS',
+    icon: images.css,
+  },
+  {
     name: 'JavaScript',
     icon: images.javascript,
   },
-
+  {
+    name: 'Sass',
+    icon: images.sass,
+  },
   {
     name: 'React',
     icon: images.react,
@@ -17,10 +24,7 @@ export const skillsData = [
     name: 'Redux',
     icon: images.redux,
   },
-  {
-    name: 'Sass',
-    icon: images.sass,
-  },
+
   {
     name: 'Tailwind',
     icon: images.tailwind,
