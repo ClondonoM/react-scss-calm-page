@@ -182,4 +182,28 @@
     background-color: #fff;
     top: -25px;
   }
+  .app__work-social div {
+    display: flex;
+    align-content: center;
+    padding: 0.5rem;
+    justify-content: space-between;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    svg {
+      width: 40px;
+      height: auto;
+      color: var(--black-color);
+    }
+    &:hover {
+      background-color: var(--gray-color);
+      border-color: var(--gray-color);
+
+      svg {
+        color: var(--white-color);
+      }
+    }
+  }
 }

@@ -57,7 +57,7 @@ const Work = () => {
             <div className='app__work-item app__flex' key={index}>
               <div className='app__work-img app__flex'>
                 <img src={work.imgUrl} alt={work.title} />
-                <motion.div
+                {/* <motion.div
                   whileHover={{ opacity: [0, 1] }}
                   transition={{
                     duration: 0.25,
@@ -83,10 +83,10 @@ const Work = () => {
                       transition={{ duration: 0.25 }}
                       className='app__flex'
                     >
-                      <AiFillGithub onClick={'https://github.com/ClondonoM'} />
+                      <AiFillGithub />
                     </motion.div>
                   </a>
-                </motion.div>
+                </motion.div> */}
               </div>
 
               <div className='app__work-content app__flex'>
@@ -94,6 +94,18 @@ const Work = () => {
                 <p className='p-text' style={{ marginTop: 10 }}>
                   {work.description}
                 </p>
+                <div className='app__work-social app__flex'>
+                  <div>
+                    <a href={work.projectLink} target='_blank' rel='noreferrer'>
+                      <AiFillEye />
+                    </a>
+                  </div>
+                  <div>
+                    <a href={work.codeLink} target='_blank' rel='noreferrer'>
+                      <AiFillGithub />
+                    </a>
+                  </div>
+                </div>
                 <div className='app__work-tags app__flex'>
                   <p className='p-text'>{work.tags[0]}</p>
                 </div>
