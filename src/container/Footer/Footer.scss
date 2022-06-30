@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  margin-left: 6rem;
+  margin-left: 18rem;
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 790px) {
     width: 80%;
     margin-left: 0;
   }
