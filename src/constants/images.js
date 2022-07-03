@@ -23,7 +23,9 @@ import github from '../assets/github.png';
 import linkedin from '../assets/linkedin.png';
 import twitter from '../assets/twitter.png';
 
+import budget from '../assets/budget.png';
 import veterinary from '../assets/veterinary.png';
+import converter from '../assets/converter.png';
 
 export default {
   email,
@@ -51,5 +53,7 @@ export default {
   linkedin,
   twitter,
 
+  budget,
   veterinary,
+  converter,
 };

@@ -21,7 +21,7 @@ export const abouts = [
   {
     title: 'Personal Growth',
     description:
-      'I love to learn new things and I am always looking for new ways to improve my skills and knowledge. Habits such as running, meditation and study are always present in my life',
+      'I am a Civil Engineer enthusiastic about programming, I love learn new things and I am always looking for new ways to improve my skills and knowledge. Habits such as running, meditation and study are always present in my life',
     imgUrl: images.running,
   },
 ];
