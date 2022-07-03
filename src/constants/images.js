@@ -15,6 +15,7 @@ import redux from '../assets/redux.svg';
 import sass from '../assets/sass.svg';
 import tailwind from '../assets/tailwind.svg';
 import typescript from '../assets/typescript.svg';
+import styledComp from '../assets/styledComp.svg';
 
 import profile2 from '../assets/profile2.png';
 import signature from '../assets/signature.svg';
@@ -45,6 +46,7 @@ export default {
   redux,
   sass,
   typescript,
+  styledComp,
 
   profile2,
   signature,

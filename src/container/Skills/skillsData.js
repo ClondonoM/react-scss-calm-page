@@ -21,8 +21,8 @@ export const skillsData = [
     icon: images.react,
   },
   {
-    name: 'Redux',
-    icon: images.redux,
+    name: 'Styled Components',
+    icon: images.styledComp,
   },
 
   {
