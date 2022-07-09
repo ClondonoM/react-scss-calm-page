@@ -21,6 +21,10 @@ export const skillsData = [
     icon: images.react,
   },
   {
+    name: 'React Router',
+    icon: images.reactRouter,
+  },
+  {
     name: 'Styled Components',
     icon: images.styledComp,
   },

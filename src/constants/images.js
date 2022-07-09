@@ -16,6 +16,7 @@ import sass from '../assets/sass.svg';
 import tailwind from '../assets/tailwind.svg';
 import typescript from '../assets/typescript.svg';
 import styledComp from '../assets/styledComp.svg';
+import reactRouter from '../assets/reactRouter.svg';
 
 import profile2 from '../assets/profile2.png';
 import signature from '../assets/signature.svg';
@@ -27,6 +28,7 @@ import twitter from '../assets/twitter.png';
 import budget from '../assets/budget.png';
 import veterinary from '../assets/veterinary.png';
 import converter from '../assets/converter.png';
+import customersManager from '../assets/customersManager.png';
 
 export default {
   email,
@@ -47,6 +49,7 @@ export default {
   sass,
   typescript,
   styledComp,
+  reactRouter,
 
   profile2,
   signature,
@@ -58,4 +61,5 @@ export default {
   budget,
   veterinary,
   converter,
+  customersManager,
 };

@@ -26,4 +26,13 @@ export const worksData = [
     imgUrl: images.converter,
     tags: ['React JS', 'All'],
   },
+  {
+    title: 'Customers Manager App',
+    description:
+      'Application that allows allows you to store, review, edit or delete customers data stored in an API.',
+    projectLink: 'https://customer-manager-app.netlify.app/',
+    codeLink: 'https://github.com/ClondonoM/react-tailwind-customer-manager',
+    imgUrl: images.customersManager,
+    tags: ['React JS', 'All'],
+  },
 ];
