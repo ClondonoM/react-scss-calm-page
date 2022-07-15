@@ -27,12 +27,12 @@ export const worksData = [
     tags: ['React JS', 'All'],
   },
   {
-    title: 'Customers Manager App',
+    title: 'Todo App',
     description:
-      'Application that allows allows you to store, review, edit or delete customers data stored in an API.',
-    projectLink: 'https://customer-manager-app.netlify.app/',
-    codeLink: 'https://github.com/ClondonoM/react-tailwind-customer-manager',
-    imgUrl: images.customersManager,
+      'Application that allows allows you to store all yours todos in a firebase firestore database',
+    projectLink: 'https://my-todo-firebase-app.netlify.app/',
+    codeLink: 'https://github.com/ClondonoM/react-firebase-todo-crud',
+    imgUrl: images.todoApp,
     tags: ['React JS', 'All'],
   },
 ];

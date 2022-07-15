@@ -21,6 +21,10 @@ export const skillsData = [
     icon: images.react,
   },
   {
+    name: 'Firebase',
+    icon: images.firebase,
+  },
+  {
     name: 'React Router',
     icon: images.reactRouter,
   },
@@ -28,7 +32,6 @@ export const skillsData = [
     name: 'Styled Components',
     icon: images.styledComp,
   },
-
   {
     name: 'Tailwind',
     icon: images.tailwind,

@@ -17,6 +17,7 @@ import tailwind from '../assets/tailwind.svg';
 import typescript from '../assets/typescript.svg';
 import styledComp from '../assets/styledComp.svg';
 import reactRouter from '../assets/reactRouter.svg';
+import firebase from '../assets/firebase.svg';
 
 import profile2 from '../assets/profile2.png';
 import signature from '../assets/signature.svg';
@@ -29,6 +30,7 @@ import budget from '../assets/budget.png';
 import veterinary from '../assets/veterinary.png';
 import converter from '../assets/converter.png';
 import customersManager from '../assets/customersManager.png';
+import todoApp from '../assets/todoApp.png';
 
 export default {
   email,
@@ -50,6 +52,7 @@ export default {
   typescript,
   styledComp,
   reactRouter,
+  firebase,
 
   profile2,
   signature,
@@ -62,4 +65,5 @@ export default {
   veterinary,
   converter,
   customersManager,
+  todoApp,
 };
