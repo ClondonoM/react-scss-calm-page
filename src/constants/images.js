@@ -31,6 +31,7 @@ import veterinary from '../assets/veterinary.png';
 import converter from '../assets/converter.png';
 import customersManager from '../assets/customersManager.png';
 import todoApp from '../assets/todoApp.png';
+import weldedGApp from '../assets/weldedGApp.png';
 
 export default {
   email,
@@ -66,4 +67,5 @@ export default {
   converter,
   customersManager,
   todoApp,
+  weldedGApp,
 };

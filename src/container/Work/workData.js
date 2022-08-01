@@ -29,10 +29,19 @@ export const worksData = [
   {
     title: 'Todo App',
     description:
-      'Application that allows allows you to store all yours todos in a firebase firestore database',
+      'Application that allows you to store all yours todos in a firebase firestore database',
     projectLink: 'https://my-todo-firebase-app.netlify.app/',
     codeLink: 'https://github.com/ClondonoM/react-firebase-todo-crud',
     imgUrl: images.todoApp,
+    tags: ['React JS', 'All'],
+  },
+  {
+    title: 'Welded Girder App',
+    description:
+      'Application that allows you to calculate the geometric properties and weld fillet of welded girders and box girders',
+    projectLink: 'https://welded-metal-profile.web.app/',
+    codeLink: 'https://github.com/ClondonoM/react-css-welded-beam',
+    imgUrl: images.weldedGApp,
     tags: ['React JS', 'All'],
   },
 ];
