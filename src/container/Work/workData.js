@@ -44,4 +44,14 @@ export const worksData = [
     imgUrl: images.weldedGApp,
     tags: ['React JS', 'All'],
   },
+  {
+    title: 'Car Insurance Quoter App',
+    description:
+      'Application that allows you to know the cost of auto insurance according to origin, year and insurance coverage',
+    projectLink: 'https://car-insurance-quoter.netlify.app/',
+    codeLink:
+      'https://github.com/ClondonoM/react-tailwind-context-insurance-quoter',
+    imgUrl: images.carInsurance,
+    tags: ['React JS', 'All'],
+  },
 ];
