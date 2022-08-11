@@ -54,4 +54,13 @@ export const worksData = [
     imgUrl: images.carInsurance,
     tags: ['React JS', 'All'],
   },
+  {
+    title: 'Lyrics Finder App',
+    description:
+      'Lyrics Finder App allows you find the song of your favorite artist',
+    projectLink: 'https://my-lyrics-finder.netlify.app/',
+    codeLink: 'https://github.com/ClondonoM/react-css-lyrics-finder',
+    imgUrl: images.lyrics,
+    tags: ['React JS', 'All'],
+  },
 ];

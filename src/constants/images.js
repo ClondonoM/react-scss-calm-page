@@ -33,6 +33,7 @@ import customersManager from '../assets/customersManager.png';
 import todoApp from '../assets/todoApp.png';
 import weldedGApp from '../assets/weldedGApp.png';
 import carInsurance from '../assets/carInsurance.png';
+import lyrics from '../assets/lyrics.png';
 
 export default {
   email,
@@ -70,4 +71,5 @@ export default {
   todoApp,
   weldedGApp,
   carInsurance,
+  lyrics,
 };
